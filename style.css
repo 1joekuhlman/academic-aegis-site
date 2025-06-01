@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+header {
+  background-color: #0d2c54;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.hero-text {
+  flex: 1;
+  padding: 20px;
+}
+.hero-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.contact {
+  padding: 40px;
+  background-color: #0d2c54;
+  color: white;
+}
+.contact h3 {
+  font-size: 1.6em;
+}
+.reviews {
+  padding: 40px;
+}
+.review {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.review h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0d2c54;
+  color: white;
+}
